@@ -1,0 +1,172 @@
+@media (max-width: 1200px)
+	h1
+		font-size: 50px
+	.subhead
+		font-size: 30px
+	h2
+		font-size: 30px
+	.about_descr
+		font-size: 15px
+	h3
+		font-size: 30px
+	.menu_link
+		font-size: 11px
+	.space_info
+		font-size: 11px
+	.space_list
+		font-size: 11px
+	.pattern1
+		display: none
+
+@media (max-width: 991px)
+	header
+		height: 170px
+	.menu
+		display: flex
+		flex-direction: column
+		margin: 20px 0 0 150px
+	.ellipse_first
+		height: 150px
+	h1
+		font-size: 45px
+		margin-top: 20px
+	.subhead
+		font-size: 20px
+	.line
+		margin-bottom: 30px
+	.space
+		&_descr
+			margin: 10px
+			padding: 10px
+	.pic
+		width: 200px
+		margin-right: 20px
+	.ellipse
+		width: 150px
+	.footer_links
+		margin: 0 auto
+		height: 150px
+		&_head
+			font-size: 12px
+		&_items
+			font-size: 11px
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		display: flex
+		flex-direction: column
+		justify-content: space-evenly
+		top: 100px
+		right: -100%
+		list-style: none
+		width: 23%
+		height: 300px
+		background-color: #000000
+		transition: 0.8s all
+		&_link
+			text-decoration: none
+			color: #FFF0D2
+			font-size: 15px
+		&_active
+			right: 0
+			z-index: 1
+	.hamburger
+		display: block
+		position: absolute
+		right: 50px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			margin-bottom: 2px
+			transition: 0.5s all
+			background-color: #000000
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.head
+		margin-bottom: 70px
+	h1
+		font-size: 35px
+	.pic
+		width: 150px
+		margin: 0 10px 20px 0
+	.subhead
+		display: flex
+		flex-direction: column
+		justify-content: center
+		height: 500px
+		margin-top: 20px
+		margin-left: 30px
+		margin-right: 430px
+		font-size: 15px
+	.pattern2
+		transform: translateX(50px)
+	.pattern3
+		transform: translateX(230px) translateY(-30px)
+	.space_main
+		font-size: 25px
+	.space_info
+		font-size: 20px
+	.space_list
+		font-size: 18px
+	.computer
+		margin: 20px auto
+
+@media (max-width: 575px)
+	.worky
+		width: 150px
+	.ellipse1
+		display: none
+	.picture2
+		display: none
+	.picture3
+		transform: translateY(70px)
+	h1
+		font-size: 20px
+	.subhead
+		margin-right: 200px	
+		font-size: 15px
+	.menu
+		width: 33%
+	.menu_link
+		font-size: 8px
+	nav
+		margin-left: 0
+		width: 0
+	h2
+		margin-top: 100px
+		font-size: 15px
+	.about_descr
+		font-size: 12px
+	.pattern4
+		margin-top: 170px
+	.car
+		width: 250px
+	h3
+		font-size: 22px
+	.space_main
+		font-size: 17px
+	.space_info
+		font-size: 15px
+	.space_list
+		font-size: 14px
+	.footer_social
+		margin: auto auto
+		width: 130px
+	.footer_links
+		&_head
+			font-size: 10px
+		&_items
+			font-size: 8px
